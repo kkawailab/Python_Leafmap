@@ -64,7 +64,7 @@ m
 ```
 
 ![基本的な地図](images/basic_map.png)
-*世界地図が表示され、ズームやパン操作が可能です*
+<p align="center"><i>世界地図が表示され、ズームやパン操作が可能です</i></p>
 
 ### 3. 地図の中心とズームレベルの設定
 ```python
@@ -74,7 +74,7 @@ m
 ```
 
 ![東京中心の地図](images/tokyo_map.png)
-*東京を中心とした地図が表示されます*
+<p align="center"><i>東京を中心とした地図が表示されます</i></p>
 
 ### 4. 地図の高さと幅の設定
 ```python
@@ -83,7 +83,7 @@ m
 ```
 
 ![サイズ設定済み地図](images/sized_map.png)
-*指定したサイズで地図が表示されます*
+<p align="center"><i>指定したサイズで地図が表示されます</i></p>
 
 ## ベースマップの操作
 
@@ -103,7 +103,7 @@ m
 ```
 
 ![OpenStreetMapベースマップ](images/osm_basemap.png)
-*OpenStreetMapのタイルを使用した地図*
+<p align="center"><i>OpenStreetMapのタイルを使用した地図</i></p>
 
 ### 複数のベースマップを切り替え
 ```python
@@ -114,7 +114,7 @@ m
 ```
 
 ![複数ベースマップ](images/multiple_basemaps.png)
-*レイヤーコントロールで異なるベースマップを切り替え可能*
+<p align="center"><i>レイヤーコントロールで異なるベースマップを切り替え可能</i></p>
 
 ### カスタムタイルレイヤーの追加
 ```python
@@ -125,7 +125,7 @@ m
 ```
 
 ![カスタムタイルレイヤー](images/custom_tile_layer.png)
-*カスタムタイルサーバーからの地図タイルを表示*
+<p align="center"><i>カスタムタイルサーバーからの地図タイルを表示</i></p>
 
 ## 地理空間データの表示
 
@@ -150,7 +150,7 @@ m
 ```
 
 ![マーカー付き地図](images/markers_map.png)
-*東京のランドマークがマーカーで表示されます*
+<p align="center"><i>東京のランドマークがマーカーで表示されます</i></p>
 
 ### GeoJSONデータの読み込み
 ```python
@@ -163,7 +163,7 @@ m
 ```
 
 ![GeoJSONデータ](images/geojson_data.png)
-*GeoJSON形式の地理空間データを地図上に表示*
+<p align="center"><i>GeoJSON形式の地理空間データを地図上に表示</i></p>
 
 ### Shapefileの読み込み
 ```python
@@ -176,7 +176,7 @@ m
 ```
 
 ![Shapefileデータ](images/shapefile_data.png)
-*Shapefile形式のベクターデータを可視化*
+<p align="center"><i>Shapefile形式のベクターデータを可視化</i></p>
 
 ### ラスターデータの表示
 ```python
@@ -189,7 +189,7 @@ m
 ```
 
 ![ラスターデータ](images/raster_data.png)
-*標高データなどのラスターデータをコンターで表現*
+<p align="center"><i>標高データなどのラスターデータをコンターで表現</i></p>
 
 ## インタラクティブな機能
 
@@ -203,7 +203,7 @@ m
 ```
 
 ![描画ツール](images/draw_tool.png)
-*地図上にポリゴンやラインを描画できます*
+<p align="center"><i>地図上にポリゴンやラインを描画できます</i></p>
 
 ### 測定ツール
 ```python
@@ -215,7 +215,7 @@ m
 ```
 
 ![測定ツール](images/measure_tool.png)
-*地点間の距離や面積を測定できます*
+<p align="center"><i>地点間の距離や面積を測定できます</i></p>
 
 ### 分割画面マップ
 ```python
@@ -226,7 +226,7 @@ m
 ```
 
 ![分割画面マップ](images/split_map.png)
-*異なるベースマップを左右に並べて比較できます*
+<p align="center"><i>異なるベースマップを左右に並べて比較できます</i></p>
 
 ### タイムスライダー
 ```python
@@ -239,7 +239,7 @@ m
 ```
 
 ![タイムスライダー](images/time_slider.png)
-*時系列データをアニメーションで表示できます*
+<p align="center"><i>時系列データをアニメーションで表示できます</i></p>
 
 ## 実践的な例
 
@@ -273,7 +273,7 @@ m
 ```
 
 ![日本の主要都市マップ](images/japan_cities_map.png)
-*日本の主要都市がマーカーで表示され、ポップアップで詳細情報を確認できます*
+<p align="center"><i>日本の主要都市がマーカーで表示され、ポップアップで詳細情報を確認できます</i></p>
 
 ### 例2: コロプレスマップの作成
 ```python
@@ -302,7 +302,7 @@ m
 ```
 
 ![コロプレスマップ](images/choropleth_map.png)
-*地域ごとのデータを色分けで表示します*
+<p align="center"><i>地域ごとのデータを色分けで表示します</i></p>
 
 ### 例3: ヒートマップの作成
 ```python
@@ -330,7 +330,7 @@ m
 ```
 
 ![ヒートマップ](images/heatmap.png)
-*データの密度を熱分布図で表現します*
+<p align="center"><i>データの密度を熱分布図で表現します</i></p>
 
 ## 次のステップ
 
