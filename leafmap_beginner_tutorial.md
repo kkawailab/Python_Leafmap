@@ -61,6 +61,8 @@ m = leafmap.Map()
 m
 ```
 
+![基本的な地図](images/basic_map.png)
+
 ### 3. 地図の中心とズームレベルの設定
 ```python
 # 東京を中心に地図を作成
@@ -68,11 +70,15 @@ m = leafmap.Map(center=[35.6762, 139.6503], zoom=10)
 m
 ```
 
+![東京中心の地図](images/tokyo_map.png)
+
 ### 4. 地図の高さと幅の設定
 ```python
 m = leafmap.Map(height="500px", width="100%")
 m
 ```
+
+![サイズ設定済み地図](images/sized_map.png)
 
 ## ベースマップの操作
 
@@ -91,6 +97,8 @@ m.add_basemap("OpenStreetMap")
 m
 ```
 
+![OpenStreetMapベースマップ](images/osm_basemap.png)
+
 ### 複数のベースマップを切り替え
 ```python
 m = leafmap.Map()
@@ -99,6 +107,8 @@ m.add_basemap("OpenTopoMap")
 m
 ```
 
+![複数ベースマップ](images/multiple_basemaps.png)
+
 ### カスタムタイルレイヤーの追加
 ```python
 m = leafmap.Map()
@@ -106,6 +116,8 @@ url = "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
 m.add_tile_layer(url, name="Google Satellite", attribution="Google")
 m
 ```
+
+![カスタムタイルレイヤー](images/custom_tile_layer.png)
 
 ## 地理空間データの表示
 
@@ -129,6 +141,8 @@ for loc, popup in zip(locations, popups):
 m
 ```
 
+![マーカー付き地図](images/markers_map.png)
+
 ### GeoJSONデータの読み込み
 ```python
 m = leafmap.Map()
@@ -138,6 +152,8 @@ geojson_url = "https://raw.githubusercontent.com/opengeos/leafmap/master/example
 m.add_geojson(geojson_url, layer_name="Cable lines")
 m
 ```
+
+![GeoJSONデータ](images/geojson_data.png)
 
 ### Shapefileの読み込み
 ```python
@@ -149,6 +165,8 @@ m.add_shp(shapefile_url, layer_name="Countries")
 m
 ```
 
+![Shapefileデータ](images/shapefile_data.png)
+
 ### ラスターデータの表示
 ```python
 m = leafmap.Map()
@@ -158,6 +176,8 @@ url = "https://github.com/opengeos/data/releases/download/raster/Libya-2023-07-0
 m.add_cog_layer(url, name="Libya")
 m
 ```
+
+![ラスターデータ](images/raster_data.png)
 
 ## インタラクティブな機能
 
@@ -170,6 +190,8 @@ m.add_draw_control()
 m
 ```
 
+![描画ツール](images/draw_tool.png)
+
 ### 測定ツール
 ```python
 m = leafmap.Map()
@@ -179,6 +201,8 @@ m.add_measure_control()
 m
 ```
 
+![測定ツール](images/measure_tool.png)
+
 ### 分割画面マップ
 ```python
 # 左右で異なるベースマップを表示
@@ -186,6 +210,8 @@ m = leafmap.Map()
 m.split_map(left_layer="TERRAIN", right_layer="OpenTopoMap")
 m
 ```
+
+![分割画面マップ](images/split_map.png)
 
 ### タイムスライダー
 ```python
@@ -196,6 +222,8 @@ url = "https://github.com/opengeos/data/releases/download/netcdf/MODIS_LST.nc"
 m.add_netcdf(url, variables=["LST"], palette="viridis", vmin=270, vmax=310)
 m
 ```
+
+![タイムスライダー](images/time_slider.png)
 
 ## 実践的な例
 
@@ -228,6 +256,8 @@ for city, coords in cities.items():
 m
 ```
 
+![日本の主要都市マップ](images/japan_cities_map.png)
+
 ### 例2: コロプレスマップの作成
 ```python
 import leafmap
@@ -254,6 +284,8 @@ m.add_geojson(
 m
 ```
 
+![コロプレスマップ](images/choropleth_map.png)
+
 ### 例3: ヒートマップの作成
 ```python
 import leafmap
@@ -278,6 +310,8 @@ m.add_heatmap(
 
 m
 ```
+
+![ヒートマップ](images/heatmap.png)
 
 ## 次のステップ
 
