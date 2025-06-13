@@ -9,6 +9,7 @@ from matplotlib.patches import Circle, Rectangle, Polygon
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import os
+import japanize_matplotlib  # 日本語フォントサポート
 
 # Create images directory if it doesn't exist
 os.makedirs('images', exist_ok=True)
